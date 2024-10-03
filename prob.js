@@ -5,7 +5,7 @@ function num(a,b,c)
         console.log("a is greatest")
         return a
     }
-    else if(b>a || b>c)
+    else if(b>a && b>c)
     {
         console.log("b is greatest")
         return b
